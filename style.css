@@ -1,5 +1,11 @@
 .container{
     max-width: 500px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
+    border: 10px solid black;
+}
+
+.buttonStyle{
+    display: block;
+
 }

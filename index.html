@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="div">
-            <h1>Coding Quiz Challenge</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam veritatis mollitia rem dolor. Vel dignissimos sunt reprehenderit expedita necessitatibus dolorem, eius accusamus provident impedit tempore nesciunt quas! Enim, vel.</p>
-            <button>Start!</button>
+    <div class="container" id="startDiv">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam veritatis mollitia rem dolor. Vel dignissimos sunt reprehenderit expedita necessitatibus dolorem, eius accusamus provident impedit tempore nesciunt quas! Enim, vel.</p>
+        <button id="start" onclick="#">Start!</button>
+    </div>
+
+    <div class="container" id="quizDiv">
+        <div id="timer">Time Left: </div>
+        <div class="questionDiv">
+            <h2>Quiz Question</h2>
+            <button class="buttonStyle" id="a" onclick="#">Quiz Answer</button>
+            <button class="buttonStyle" id="b" onclick="#">Quiz Answer</button>
+            <button class="buttonStyle" id="c" onclick="#">Quiz Answer</button>
+            <button class="buttonStyle" id="d" onclick="#">Quiz Answer</button>
+            <p id="result">result</p>
         </div>
     </div>
+
+    
     
     <link rel="stylesheet" href="script.js">
 </body>
