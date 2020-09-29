@@ -20,4 +20,4 @@ THEN I can save my initials and score
 https://mcduderson.github.io/HW4-CodeQuiz/.
 
 #### Screen Shot of deployed page:
-(/assets/screenshot.png)
+<img src="./assets/screenshot.png">
