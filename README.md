@@ -18,3 +18,6 @@ THEN I can save my initials and score
 
 ### Link to deployed app: 
 https://mcduderson.github.io/HW4-CodeQuiz/.
+
+#### Screen Shot of deployed page:
+(/assets/screenshot.png)
