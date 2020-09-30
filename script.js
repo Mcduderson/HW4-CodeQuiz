@@ -44,8 +44,6 @@ var highScoreDiv = document.getElementById("highScoreDiv");
 var scoreText = document.getElementById("scoreText");
 var submitButton = document.getElementById("submitButton");
 var initialsInput = document.getElementById("initialsInput");
-var backButton = document.getElementById("backButton");
-var clearButton = document.getElementById("clear");
 var result = document.getElementById("result");
 
 //function to start game, and reveal next html container. Also starts off the timer.
@@ -63,11 +61,15 @@ function startGame() {
 //function to check choice against answer and penalize wrong answers, also keeps track of which question you are on and end the quiz when the end is reached.
 function checkAns() {
     if(this.value !== questions[index].answer){
+        result.textContent = "Wrong!"
         time -= 15;
         if(time < 0){
             time = 0;
         }
         timer.textContent = time; 
+    }
+    if(this.value === questions[index].answer){
+        result.textContent = "Correct!"
     }
     index++;
     if(index===questions.length){
