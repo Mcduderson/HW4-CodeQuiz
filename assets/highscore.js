@@ -1,15 +1,15 @@
-// Declared variables
+//declaring global variables
 var highScore = document.querySelector("#highScore");
 var clear = document.querySelector("#clear");
 var goBack = document.querySelector("#goBack");
 
-// Event listener to clear scores 
+//click event + function that clears local storage.
 clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
 
-// Retreives local stroage 
+//gets local stroage.
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
@@ -24,7 +24,7 @@ if (allScores !== null) {
     }
 }
 
-// Event listener to move to index page
+//event listener to move to index page.
 goBack.addEventListener("click", function () {
     window.location.replace("../index.html");
 });
