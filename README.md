@@ -1,23 +1,36 @@
-# HW4-CodeQuiz
+![GitHub license](https://img.shields.io/badge/license-None-Black.svg)
+  # Code Quiz
 
-## Purpose 
-The purpose of this application is to administer a timed coding quiz to help strengthen knowledge and confidence. This is a timed quiz app was made with HTML, CSS, and JavaScript. All scores are stored in local storage.
+  ## Description
+  The purpose of this application is to administer a timed coding quiz to help strengthen knowledge and confidence. This is a timed quiz app was made with HTML, CSS, and JavaScript. All scores are stored in local storage.
+  <br>
+  <a href="https://mcduderson.github.io/HW4-CodeQuiz/">Deployed App</a>
 
-### Acceptance Criteria
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
+  ## Table of Contents
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests)
+  7. [Questions](#questions)
 
-### Link to deployed app: 
-https://mcduderson.github.io/HW4-CodeQuiz/.
+  ## Installation
+  No installation needed, please visit the deployed app or repo link if you would like to see the website/code.
 
-#### Screen Shot of deployed page:
-<img src="./assets/screenshot.png">
+  ## Usage
+  <img src="./assets/screenshot.png">
+
+  ## License
+  This application is licensed under the None license.
+
+  ## Contributing
+  This project is not open to contribution at this time.
+
+  ## Tests
+  No test suite, manual tests performed
+
+  ## Questions
+  <a href="https://github.com/Mcduderson">GitHub Profile</a>
+  <br>
+  For questions I can be reached at e.payne000@gmail.com
